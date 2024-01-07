@@ -11,7 +11,7 @@ class TextEditor:
         self.root = root
         self.message_handler = message_handler
 
-        self.root.title("Multilingual Text Editor")
+        self.root.title("Daihon-Chan VRChatbox Editor")
 
         # Define the text field with scroll bar
         self.text_field = scrolledtext.ScrolledText(root, wrap=tk.WORD, undo=True, font=('Arial', 12))
