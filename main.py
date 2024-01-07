@@ -56,7 +56,6 @@ class TextEditor:
             current_line_index = int(current_line_index) - 1
         line_text = self.text_field.get(f"{current_line_index}.0", f"{current_line_index}.end")
         self.message_handler.send_message(line_text)
-        print("sending current line", line_text)
 
     def on_closing(self):
         if messagebox.askokcancel("Quit", "Do you want to quit? \n"
