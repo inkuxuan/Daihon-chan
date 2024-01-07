@@ -24,6 +24,9 @@ The app is simply a text editor with the additional ability to
 
 **Note that this App is not capable of saving and reading files. Copy and paste your own script here**
 
+**Do NOT close the command prompt when using the app**. This was bacause building the app with noconsole argument 
+resulted in Windows Defender regarding it as a virus. 
+
 Configuration files are saved in ~/.config/daihon_chan/
 
 ユーザは、ReleaseからEXEファイルをダウンロードし、実行できます。
@@ -35,3 +38,5 @@ Configuration files are saved in ~/.config/daihon_chan/
 * Ctrl-Sで改行せずに発送
 
 **注意：本アプリにはセーブ機能ついておりませんので、台本はコピペでやってください。**
+
+**使用中にコマンドウィンドウは閉じないでください**（Buildする時NoConsole指定するとアンチヴィルスアプリに誤認識されるため、コマンドプロンプトを残しました）
