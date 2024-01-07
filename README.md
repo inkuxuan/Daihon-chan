@@ -19,6 +19,7 @@ End users could download the distribution EXE file and execute.
 The app is simply a text editor with the additional ability to
 
 * Highlight the current editing line
+* Ctrl and mouse wheel to resize the font
 * Shift-Enter to send the current line to VRChat and start a new line
 * Ctrl-S to send the current line without starting a new line
 
@@ -34,6 +35,7 @@ Configuration files are saved in ~/.config/daihon_chan/
 普通のテキストエディタの挙動のほか、
 
 * 編集されている行のハイライト
+* Ctrlを押しながらマウスホイールで文字の大きさを調整できる
 * Shift-Enterキーで発送と改行
 * Ctrl-Sで改行せずに発送
 
